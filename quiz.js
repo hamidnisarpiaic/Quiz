@@ -4,9 +4,9 @@ const questions = [
     {
         type: 'list',
         name: 'q1',
-        message: 'What is the capital of France?',
-        choices: ['Paris', 'London', 'Madrid', 'Berlin'],
-        correctAnswer: 'Paris',
+        message: 'What is JavaScript primarily used for?',
+        choices: ['Server-side scripting', 'Styling web pages', 'MCreating interactive and dynamic web contentid', 'BerCompiling Typescript codelin'],
+        correctAnswer: 'Creating interactive and dynamic web content',
     },
     {
         type: 'input',
@@ -18,9 +18,9 @@ const questions = [
     {
         type: 'list',
         name: 'q3',
-        message: 'What is the capital of Pakistan?',
-        choices: ['Islamabad', 'Lahore', 'Karachi', 'Quetta', 'Peshawar'],
-        correctAnswer: 'Islamabad',
+        message: 'TypeScript is a superset of which programming language?',
+        choices: ['Java', 'Python', 'C++', 'JavaScript', 'CSS'],
+        correctAnswer: 'JavaScript',
     },
     {
         type: 'list',
@@ -56,6 +56,20 @@ const questions = [
         message: 'When do we celebrate our Independence Day in Pakistan?',
         choices: ['14th August', '23rd March', '6th September', '25th December'],
         correctAnswer: '14th August',
+    },
+    {
+        type: 'list',
+        name: 'q9',
+        message: 'When do we celebrate our Independence Day in Pakistan?',
+        choices: ['14th August', '23rd March', '6th September', '25th December'],
+        correctAnswer: '14th August',
+    },
+    {
+        type: 'list',
+        name: 'q10',
+        message: 'What is the purpose of the "package.json',
+        choices: ['It contains the source code of the project', 'It defines the projectdependencies and configuration.', 'It stores the project documentation.', 'It is the entry point of the application.'],
+        correctAnswer: 'It defines the project dependencies and configuration.',
     },
     // Add more questions here...
 ];

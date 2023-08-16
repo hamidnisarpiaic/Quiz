@@ -48,7 +48,7 @@ const questions = [
     type: 'list',
     name: 'q7',
     message: 'When are the next Elections in Pakistan expected to be held?',
-    choices: ['2023', '2024', '2025', 'I don\'t know'],
+    choices: ['2023', '2024', '2025', '2026'],
     correctAnswer: '2024',
   },
   {

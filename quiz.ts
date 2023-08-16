@@ -6,7 +6,7 @@ const questions = [
     type: 'list',
     name: 'q1',
     message: 'What is JavaScript primarily used for?',
-    choices: ['Server-side scripting', 'Styling web pages', 'MCreating interactive and dynamic web contentid', 'BerCompiling Typescript codelin'],
+    choices: ['Server-side scripting', 'Styling web pages', 'Creating interactive and dynamic web contentid', 'Compiling Typescript codelin'],
     correctAnswer: 'Creating interactive and dynamic web content',
   },
   {
@@ -61,9 +61,9 @@ const questions = [
   {
     type: 'list',
     name: 'q9',
-    message: 'When do we celebrate our Independence Day in Pakistan?',
-    choices: ['14th August', '23rd March', '6th September', '25th December'],
-    correctAnswer: '14th August',
+    message: 'Which command is used to initialize a new Node.js project and create a package.json file?',
+    choices: ['npm init', 'npm i', 'node init', 'node init'],
+    correctAnswer: 'npm init',
   },
 
   {

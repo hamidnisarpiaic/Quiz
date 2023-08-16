@@ -6,7 +6,7 @@ const questions = [
     type: 'list',
     name: 'q1',
     message: 'What is JavaScript primarily used for?',
-    choices: ['Server-side scripting', 'Styling web pages', 'Creating interactive and dynamic web contentid', 'Compiling Typescript codelin'],
+    choices: ['Server-side scripting', 'Styling web pages', 'Creating interactive and dynamic web content', 'Compiling Typescript codelin'],
     correctAnswer: 'Creating interactive and dynamic web content',
   },
   {
@@ -70,7 +70,7 @@ const questions = [
     type: 'list',
     name: 'q10',
     message: 'What is the purpose of the "package.json',
-    choices: ['It contains the source code of the project', 'It defines the projectdependencies and configuration.', 'It stores the project documentation.', 'It is the entry point of the application.'],
+    choices: ['It contains the source code of the project', 'It defines the project dependencies and configuration.', 'It stores the project documentation.', 'It is the entry point of the application.'],
     correctAnswer: 'It defines the project dependencies and configuration.',
   },
  
